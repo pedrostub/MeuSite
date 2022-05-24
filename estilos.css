@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #1c1c1c;
+}
+
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    color: #191970;
+}
+
+.botão {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 30px;
+    background: #191970;
+    font-size: .9em;
+    border-radius: 3px;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191970;
+}
+
+nav > a {
+
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Yellowtail, serif;
+}
+
+nav ul {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+
+}
+
+nav ul li {
+
+    text-align: center;
+    width: 100%;   
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("img/c26ed4_5e6115da9a39417a9b4ce470408d129e_mv2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15%;
+    
+}
+
+header h1{
+    color: #191970;
+}
+
+header p{
+    margin-bottom: 2em;
+}
+
+#Sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background: #191970;
+    color: #FFFFFF;
+}
+
+#Sobre h2 {
+    color: #FFFFFF;
+}
+
+#Sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#Sobre .botão {
+    background: #f1f1f1;
+    color: #1c1c1c;
+}
+
+#Serviços {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px;
+    font-size: 30px;
+    text-align: left;
+    color: #191970;
+    white-space: normal;
+}
+li {
+    display: -ms-flexbox;
+    text-align: 80%;
+}
+#Serviços image div {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0px 48px;
+    color: #000080;
+    font-size: 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.listas {
+    column-count: 1;
+    margin: 1 auto 10px;
+  }
+  
+#Galeria {
+    padding: 10px;
+    align-items: center;
+    color: #191970;
+    text-align: center; 
+}
+#Galeria div {
+    width: 80px;
+    right: 60px;
+    display: inline-block;
+  
+   
+}
+    
+#Contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+#Contato h2 {
+    color: #000000;
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #191970;
+    color: #FFFFFF;
+}
+
+footer a {
+    text-decoration: none;
+    color: #00FFFF;
+}
+
+@media screen and (min-width:768px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+}
